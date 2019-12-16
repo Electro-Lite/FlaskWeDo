@@ -1,4 +1,5 @@
-@app.aroute("/")
+from . import app
+@app.route("/")
 
-def index ()
+def index ():
     return "toto je Index"
